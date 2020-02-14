@@ -315,7 +315,7 @@ sns.countplot(x='default_time', data=df)
 
 
 
-![png](assets/images/output_16_1.png)
+![png](/assets/images/output_16_1.png)
 
 
 We observe that the data set is heavily imbalanced. There are barely any defaults. To mitigate this issue, we will use an oversampling technique called SMOTE.
@@ -351,7 +351,7 @@ for i, feature in enumerate(['hpi_orig_time', 'hpi_time', 'uer_time']):
 ```
 
 
-![png](assets/images/output_21_0.png)
+![png](/assets/images/output_21_0.png)
 
 
 **House price index at origination** - the reason why defaulted loans show association with higher val
@@ -395,11 +395,11 @@ for i,feature in enumerate(binary_features):
 ```
 
 
-![png](assets/images/output_24_0.png)
+![png](/assets/images/output_24_0.png)
 
 
 
-![png](assets/images/output_24_1.png)
+![png](/assets/images/output_24_1.png)
 
 
 **Interest rate at origination time** - it seems that higher interest rate at origination time is associated with higher default risk. 
@@ -431,7 +431,7 @@ plt.tight_layout()
 ```
 
 
-![png](assets/images/output_27_0.png)
+![png](/assets/images/output_27_0.png)
 
 
 **Interest rate at observation time** - it seems that higher interest rate at observation time is associated with higher default risk. 
@@ -461,7 +461,7 @@ for i, feature in enumerate(variables):
 ```
 
 
-![png](assets/images/output_30_0.png)
+![png](/assets/images/output_30_0.png)
 
 
 
@@ -480,7 +480,7 @@ for i, cat in enumerate(fico_categories):
 ```
 
 
-![png](assets/images/output_31_0.png)
+![png](/assets/images/output_31_0.png)
 
 
 
@@ -500,7 +500,7 @@ for i,feature in enumerate(binary_features):
 ```
 
 
-![png](assets/images/output_32_0.png)
+![png](/assets/images/output_32_0.png)
 
 
 **Fico score at observation time** - Loans with higher FICO score are less likely to default. 
@@ -516,7 +516,7 @@ plt.show()
 ```
 
 
-![png](assets/images/output_35_0.png)
+![png](/assets/images/output_35_0.png)
 
 
 For some histograms, we see large unused spaces on the x axis. That signifies the presence of outliers. We will explore LTV_time, balance_orig_time, balance_time, interest_rate_time
@@ -563,7 +563,7 @@ plt.tight_layout()
 ```
 
 
-![png](assets/images/output_39_0.png)
+![png](/assets/images/output_39_0.png)
 
 
 The section below was used to manually remove outliers. However, when I tested the models with the outliers unremoved, it performed better. It might be due to the fact that I use the sklearn scaler or that the outliers were removed in a wrong way. In sum, I left the outliers untouched and commented out the code for manually removing them.
@@ -785,7 +785,7 @@ sns.set_style({'xtick.bottom': True}, {'ytick.left': True})
 ```
 
 
-![png](assets/images/output_45_0.png)
+![png](/assets/images/output_45_0.png)
 
 
 We see no perfect correlation, therefore, we do not need to drop any variables.
@@ -1338,23 +1338,23 @@ model_report,confusion_matrix_dict = train_eval_model(different_model_comparison
     
 
 
-![png](assets/images/output_80_4.png)
+![png](/assets/images/output_80_4.png)
 
 
 
-![png](assets/images/output_80_5.png)
+![png](/assets/images/output_80_5.png)
 
 
 
-![png](assets/images/output_80_6.png)
+![png](/assets/images/output_80_6.png)
 
 
 
-![png](assets/images/output_80_7.png)
+![png](/assets/images/output_80_7.png)
 
 
 
-![png](assets/images/output_80_8.png)
+![png](/assets/images/output_80_8.png)
 
 
 
@@ -1405,23 +1405,23 @@ model_report_bal,cm_dict_bal = train_eval_model(different_model_comparison,X_tra
     
 
 
-![png](assets/images/output_85_1.png)
+![png](/assets/images/output_85_1.png)
 
 
 
-![png](assets/images/output_85_2.png)
+![png](/assets/images/output_85_2.png)
 
 
 
-![png](assets/images/output_85_3.png)
+![png](/assets/images/output_85_3.png)
 
 
 
-![png](assets/images/output_85_4.png)
+![png](/assets/images/output_85_4.png)
 
 
 
-![png](assets/images/output_85_5.png)
+![png](/assets/images/output_85_5.png)
 
 
 
