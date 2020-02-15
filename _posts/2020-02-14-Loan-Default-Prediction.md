@@ -1,4 +1,4 @@
-# Executive summary
+# Executive summary:
 We are working with a dataset containing data related to US loans with deidentified periods.
 
 The aim of this notebook is to construct a model able to predict a loan default at a given time. That means we are not predicting whether the loan should be first handed out, but rather anticipating its default at a specific time snapshot.
