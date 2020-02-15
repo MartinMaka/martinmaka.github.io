@@ -1,11 +1,11 @@
 # Executive summary:
-We are working with a dataset containing data related to US loans with deidentified periods.
+We are working with a dataset containing data related to US loans with deidentified periods. The dataset was provided in a couse at NUS.  
 
 The aim of this notebook is to construct a model able to predict a loan default at a given time. That means we are not predicting whether the loan should be first handed out, but rather anticipating its default at a specific time snapshot.
 
-A prediction at a certain time may serve as an input for calculating various risk metrics such as exposure.
+A prediction at a certain time may serve as an input for calculating various risk metrics, such as exposure.
 
-The dataset contains very few defaults, and therefore we use oversampling to mitigate the problem of the model simply choosing the overrepresented class - non-defaulted loans. Several algorithms are tested and compared using confusion matrix as the principal evaluation metric.
+The dataset contains very few defaults, and therefore, we use oversampling to mitigate the problem of the model simply choosing the overrepresented class - non-defaulted loans. Several algorithms are tested and compared using confusion matrix as the principal evaluation tool.
 
 
 ```python
@@ -284,7 +284,7 @@ print("Duplicate values after removing them:", df.drop_duplicates(inplace=True))
 
 # Exploratory analysis
 
-Survival analysis dataset prep - only loans originating and defaulting in our dataset:
+Before we start the exploratory analysis, we prepare a dataset containing only loans originating and defaulting in our dataset. We will use this dataset to construct survival plots later in this section.
 
 
 ```python
