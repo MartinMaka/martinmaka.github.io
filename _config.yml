@@ -110,4 +110,5 @@ category_archive:
  # type: liquid
   #path: /tags/
 link-tags: false
+classes: wide
 minimal_mistakes_skin: "default" # default, "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
