@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Martin Maka"
-  avatar : "/assets/images/linkedsg.jpg"
+  avatar : "/assets/images/linkedsg.png"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "Website"
@@ -112,4 +112,4 @@ tag_archive:
   type: liquid
   path: /tags/
 
-minimal_mistakes_skin: "dark" # default, "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+minimal_mistakes_skin: "default" # default, "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
