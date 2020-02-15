@@ -63,9 +63,8 @@ author:
   links:
     - label: "Vienna"
       icon: "fa fa-fw fa-map-marker"
-      url: ""
     - label: "Website"
-      icon: "fas fa-globe"
+      icon: "fas fa-fw fa-globe"
        url: "https://martinmaka.github.io/"
  #   - label: "Instagram"
   #    icon: "fab fa-fw fa-instagram"
