@@ -13,12 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Martin Maka - Analytic Projects
+title: Martin Maka - Projects
 email:
+location: "Vienna"
+linkedin: "MartinMaka"
 description: >- # this means to ignore newlines until "baseurl:"
   A selection of analytic projects.
-twitter_username: username
-github_username: username
+# github_username: username
 minimal_mistakes_skin: default
 search: true
 
@@ -58,7 +59,7 @@ plugins:
 author:
   name   : "Martin Maka"
   avatar : "/assets/images/linkedsg.png"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  # bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
