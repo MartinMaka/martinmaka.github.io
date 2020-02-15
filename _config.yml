@@ -92,9 +92,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
-      related: true
+      comments: false
+      share: false
+      related: false
   # _pages
   - scope:
       path: "_pages"
@@ -106,8 +106,8 @@ defaults:
 category_archive:
   type: liquid
   path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+#tag_archive:
+ # type: liquid
+  #path: /tags/
 
 minimal_mistakes_skin: "default" # default, "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
