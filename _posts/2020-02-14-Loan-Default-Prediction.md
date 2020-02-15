@@ -318,7 +318,7 @@ sns.countplot(x='default_time', data=df)
 ![png](/assets/images/output_16_1.png)
 
 
-We observe that the data set is heavily imbalanced. There are barely any defaults. To mitigate this issue, we will use an oversampling technique called SMOTE.
+We observe that the dataset is heavily imbalanced. There are barely any defaults. To mitigate this issue, we will use an oversampling technique called SMOTE.
 
 ### Number of unique borrowers
 
@@ -330,7 +330,7 @@ print('The number of unique borrowers is: ', len(df['Borrower'].unique()))
     The number of unique borrowers is:  49982
     
 
-### Macroeconomic environment
+### Macroeconomic environment variables 
 
 
 ```python
@@ -361,7 +361,7 @@ real estate is expensive, people had to borrow more money to buy it, and therefo
 
 **Unemployment rate at observation time** - it seems that low unemployment rate at observation time is associated with loans not defaulting
 
-### Parameters of a loan at origination
+### Parameters of a loan at origination variables
 
 
 ```python
@@ -408,7 +408,7 @@ This is not surprising, since the interest should reflect the underlying risk.
 **Survival plots** - the three survival charts illustrate the relationship between the percentage of non-defaulted loans
 vs the observation time versus. The lower line is always the one for which less loans have "survived"
 
-### Variable parameters of a loan
+### Variable parameters of a loan variables
 
 
 ```python
@@ -440,7 +440,7 @@ This is not surprising, since the interest should reflect the underlying risk.
 **Loan to value ratio at observation time** - the higher the size of the loan relative to the value of the underlying asset,
 the higher the probablity of default. Borrower taking such loans are likely in financial need and more prone to default.
 
-### Borrower characteristics
+### Borrower characteristics variables
 
 
 ```python
