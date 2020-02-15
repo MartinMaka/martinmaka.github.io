@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
+# settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   A selection of analytic projects.
 # github_username: username
 minimal_mistakes_skin: default
-search: true
+search: false
 
 # Build settings
 markdown: kramdown
@@ -64,24 +64,24 @@ author:
     - label: "Vienna"
       icon: "fa fa-fw fa-map-marker"
       url: "https://twitter.com/"
-    - label: "GitHub"
-#      icon: "fab fa-fw fa-github"
-#      url: "https://github.com/Martin"
+    - label: "Website"
+      icon: "fas fa-globe"
+       url: "https://martinmaka.github.io/"
  #   - label: "Instagram"
   #    icon: "fab fa-fw fa-instagram"
    #   url: "https://instagram.com/"
 
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+#footer:
+#  links:
+ #   - label: "Twitter"
+  #    icon: "fab fa-fw fa-twitter-square"
+   #   url: "https://twitter.com/"
+    #- label: "GitHub"
+     # icon: "fab fa-fw fa-github"
+      #url: "https://github.com/"
+  #  - label: "Instagram"
+   #   icon: "fab fa-fw fa-instagram"
+    #  url: "https://instagram.com/"
 
 defaults:
   # _posts
