@@ -8,7 +8,7 @@ excerpt: "Presentation of a loan default prediction project I created at NUS. "
 <img src="https://images.unsplash.com/photo-1562953842-188bb7ce6588?ixlib=rb1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="drawing" width="550"/>
 
 # Executive summary:
-We are working with a dataset containing data related to US loans with deidentified periods. The dataset was provided in a couse at NUS.  
+We are working with a dataset containing data related to US loans with deidentified periods. The dataset was provided in a coruse at NUS.  
 
 The aim of this notebook is to construct a model able to predict a loan default at a given time. That means we are not predicting whether the loan should be first handed out, but rather anticipating its default at a specific time snapshot.
 
@@ -212,7 +212,7 @@ df.head()
 
 
 
-The data was given to us for analysis in a class at NUS with only the following description related to the dataset:
+The data was given to us for analysis in a class at NUS with only the following description and a description of the variables:
 
 *We will be using a loan data set from the United States. The periods has been deidentified. As in the real world, loans may originate before the start of the observation period (this is an issue where loans are transferred between banks and investors as in securitization). The loan observations may thus be censored as the loans mature or borrowers refinance. The dataset contains the following variables:*
 
@@ -1374,7 +1374,7 @@ print("Defaulted loans in the dataset:", y_test[y_test == 1].shape[0])
 
     Defaulted loans in the dataset: 4467
     
-
+Every model, except for decision tree, was unable to predict ANY of the defaulted loans! Let us try the oversampling approach then.
 ## Train and evaluate model: Oversampling approach
 
 
@@ -1440,7 +1440,7 @@ print("Defaulted loans in the dataset:", y_test_bal[y_test_bal == 1].shape[0])
 
     Defaulted loans in the dataset: 4467
     
-
+Unlike with the imbalanced training dataset, we can see that no model has failed with predicting all of the 4467 defaults in the test dataset.
 ## Model commentary
 The variant using balanced training data is much better at predicting defaults. 
 However, the downside is that we have a higher number of loans for which we wrongly predict failure. 
