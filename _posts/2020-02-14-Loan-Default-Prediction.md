@@ -1614,7 +1614,7 @@ model_report_bal
 
 
 
-We see a marked improvement in recall, which is a metric fitting for our usecase, as opposed to accuracy. We are using recall as an evaluation metric, since we believe that a defaulted loan has a severe impact on the creditor.
+Comparing the training imbalanced and balanced dataset, we see a marked improvement in recall, which is a metric fitting for our usecase, as opposed to accuracy. We are using recall as an evaluation metric, since we believe that a defaulted loan has a severe impact on the creditor.
 
 In reality, we would likely select logistic regression to be used in production, since it offers good predictions coupled with much easier interpretability than the second-best algorithm MLP.
 
