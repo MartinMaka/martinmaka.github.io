@@ -1,3 +1,12 @@
+---
+layout: single
+classes: wide
+title:  "What influences hotel prices in Singapore?"
+excerpt: "Documenting building an extremely simple regression model illustrating the factors associated with hotel prices in Singapore"
+
+---
+<img src="https://images.unsplash.com/photo-1565967511849-76a60a516170?ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80" alt="drawing" width="550"/>
+
 # Import necessary libraries
 
 
