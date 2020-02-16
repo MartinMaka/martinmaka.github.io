@@ -204,29 +204,29 @@ df['Love Hotel'] = df['Love Hotel'].astype(int)
 
 Description of the variables in the dataset and their expected impact on the final price
 
-1.   **Name**</br>
+1.   **Name**<br />
 This is just a name of the hotel. It might happen that the most famous hotel in Singapore, Marina Bay Sands, will be significantly more expensive than others. However, we do not want to use this variable as a predictor and therefore we will not use it in our analysis.
-2.   **Distance from Changi Airport in km**</br>
+2.   **Distance from Changi Airport in km**<br />
 How far the hotel is from the Singapore Airport. We expect that hotels close to the airport should be more expensive than the ones far from the airport.
-3.   **Hotel Stars**</br>
+3.   **Hotel Stars**<br />
 We expect that hotels with more stars will be more expensive than hotels with low stars.
-4.   **District**</br>
+4.   **District**<br />
 The district the hotel is located in. The expectation is that more attractive districts will harbour more expensive hotels.
-5.   **Distance from centre in metres**</br>
+5.   **Distance from centre in metres**<br />
 The expectation is that the closer the hotel is to the city centre, the more expensive it will be. 
-6.   **Number of Reviews**</br>
+6.   **Number of Reviews**<br />
 Hotels with more reviews will probably be more expensive, since they possess something special the customers want to share. On the other hand, a negative experience could also result in a high review number. 
-7.   **Guest Rating**</br>
+7.   **Guest Rating**<br />
 We expect that the higher the guest rating, the more expensive the hotel. This variable is likely going to capture factors not included in the other variables. Additionally, it might also be highly correlated with some other independent variables.
-8.   **Price in SGD**</br>
+8.   **Price in SGD**<br />
 Base price of the cheapest room in the hotel. 
-9.   **Extra Fees**</br>
+9.   **Extra Fees**<br />
 Extra fees on top of the base price. As of February 2020, Booking.com does not show this item.
-10.   **Final Price**</br>
+10.   **Final Price**<br />
 Target variable. A sum of the base price and the extra fees. 
-11.   **Subway Access**</br>
+11.   **Subway Access**<br />
 We expect that hotels with a subway access will be more expensive than the ones without it.
-12.   **Love Hotel**</br>
+12.   **Love Hotel**<br />
 Hotels that provide rooms with hourly rates. These hotels come from two chains - 'Hotel 81' and 'Fragrance Hotel' We expect these hotels to be less expensive than other hotels.
 
 
@@ -1057,8 +1057,3 @@ I assume that predictors such as investment into the building of the hotel, numb
 3) We could use interaction terms between the variables.
 
 4) An interesting excercise would be to collect new data about the hotels today, and test whether our model is still acceptable.
-
-
-```python
-
-```
