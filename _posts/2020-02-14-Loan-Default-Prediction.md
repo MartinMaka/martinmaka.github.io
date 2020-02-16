@@ -2,9 +2,9 @@
 layout: single
 classes: wide
 title:  "Loan Default Prediction - University Project"
-excerpt: "Presentation of a loan default prediction final project I created at NUS. "
+excerpt: "Presentation of a loan default prediction project I created at NUS. "
 header:
-image: https://images.unsplash.com/photo-1562953842-188bb7ce6588?ixlib=rb 1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80
+image: "https://images.unsplash.com/photo-1562953842-188bb7ce6588?ixlib=rb 1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
 
 ---
 
