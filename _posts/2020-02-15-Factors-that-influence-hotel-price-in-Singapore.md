@@ -8,7 +8,7 @@ excerpt: "Documenting building an extremely simple regression model illustrating
 <img src="https://images.unsplash.com/photo-1565967511849-76a60a516170?ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80" alt="drawing" width="550"/>
 
 # Executive summary
-This artile documents the process of building a simple regression model to show association between information available on Booking.com and the price of a hotel room. There are several challenges and limitations related to the modelling which are described at the end of the article in a greater detail.
+This article documents the process of building a simple regression model to show the association between information regarding a hotel available on Booking.com and the price of a hotel room. There are several challenges and limitations related to the modelling which are described at the end of the article in a greater detail.
 
 # Import necessary libraries
 
