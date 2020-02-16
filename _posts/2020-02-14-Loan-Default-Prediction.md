@@ -5,7 +5,7 @@ title:  "Loan Default Prediction - University Project"
 excerpt: "Presentation of a loan default prediction project I created at NUS. "
 
 ---
-<img src="https://images.unsplash.com/photo-1562953842-188bb7ce6588?ixlib=rb1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="drawing" width="375"/>
+<img src="https://images.unsplash.com/photo-1562953842-188bb7ce6588?ixlib=rb1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="drawing" width="500"/>
 
 # Executive summary:
 We are working with a dataset containing data related to US loans with deidentified periods. The dataset was provided in a couse at NUS.  
