@@ -597,9 +597,9 @@ plt.tight_layout()
 
 The first chart above hints at the following conclusions:
 
-1. Our target variable, SalePrice is not normally distributed, therefore we will carry out a log transformation.
+1. Our target variable is not normally distributed, therefore we will carry out a log transformation.
 2. Our target variable is right-skewed.
-3. There are multiple outliers in the variable. Ordinary least squares regression 
+3. There are multiple outliers in the variable. Ordinary least squares regression might not be the optimal tool.
 
 After carrying out the log transformation, we see that the distribution is more normal and there are fewer outliers.
 
