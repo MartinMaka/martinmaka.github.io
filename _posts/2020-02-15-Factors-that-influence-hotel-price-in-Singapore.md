@@ -7,6 +7,9 @@ excerpt: "Documenting building an extremely simple regression model illustrating
 ---
 <img src="https://images.unsplash.com/photo-1565967511849-76a60a516170?ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80" alt="drawing" width="550"/>
 
+# Executive summary
+This artile documents the process of building a simple regression model to show association between information available on Booking.com and the price of a hotel room. There are several challenges and limitations related to the modelling which are described at the end of the article in a greater detail.
+
 # Import necessary libraries
 
 
@@ -27,7 +30,7 @@ import matplotlib.gridspec as gridspec
 
 # Import data
 The data was scraped from Booking.com using Octoparse. 
-The scraping was carried out on November 8, 2019 for three nights of stay - Dec 20, 2019 to Dec 20 2019. If there is a Christmas holiday effect, we assume it acts on the all hotels in the same way.
+The scraping was carried out on November 8, 2019 for three nights of stay - Dec 20, 2019 to Dec 22 2019. The prices are the sum of the price for the cheapest room at the hotel available at Booking.com (the prices that are shown when searching for accomodation)for the two nights, if there is a Christmas holiday effect, we assume it acts on all the hotels in the same way. 
 
 Below is the url for the search.
 
