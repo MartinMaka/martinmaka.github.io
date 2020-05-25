@@ -18,9 +18,9 @@ The app enables the following:
 3. Display a shopping todo list based on the meal plan
 
 #### Problem
-It takes me time to remember which ingredients I need for cookign a recipe.
+It takes me time to remember which ingredients I need for cooking a recipe when shopping. Writing the ingredients down everytime I go shopping is tedious.
 #### Solution
-A website that presents me with a todo list when I go shopping for the meals I chose to cook.
+A website that generates a todo list when I go shopping for the meals I chose to cook.
 # Screenshots
 Landing page
 
