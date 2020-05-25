@@ -31,9 +31,11 @@ Recipe overview
 ![](https://martinmaka.github.io/assets/images/masterchef_overview.png)
 
 Recipe detail
+
 ![](https://martinmaka.github.io/assets/images/masterchef_recipe.png)
 
 Shopping list
+
 ![](https://martinmaka.github.io/assets/images/masterchef_list.png)
 
 
