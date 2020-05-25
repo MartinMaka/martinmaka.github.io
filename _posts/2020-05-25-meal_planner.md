@@ -4,7 +4,7 @@ classes: wide
 title:  "Simple Meal Planner"
 excerpt: "Presentation of a simple mobile-first web app for meal planning using NodeJS, Bootstrap, and Postgres"
 ---
-<img src="https://martinmaka.github.io/assets/masterchef_landing.jpg" alt="drawing" width="550"/>
+<img src="https://martinmaka.github.io/assets/images/masterchef_landing.jpg" width="550"/>
 
 
 # Executive summary
